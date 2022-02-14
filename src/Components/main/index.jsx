@@ -1,16 +1,16 @@
 export const Main = () => {
   return (
     <main>
-      <h1 className="pt-2 text-3xl text-center">MATIAS SEMELMAN</h1>
-      <h2 className="text-xl text-center">FRONTEND DEVELOPER</h2>
+      <h1 className="text-3xl text-center text-red-600">MATIAS SEMELMAN</h1>
+      <h2 className="text-xl text-center text-red-700">FRONTEND DEVELOPER</h2>
 
-      <div className="pt-4">
+      <div className="py-4">
         <img
           src="https://matiassemelman.github.io/me/assets/photo.jpeg"
           alt="My Personal Photo"
         />
       </div>
-      <section className="pt-4">
+      <section className="px-4">
         <p>
           From Argentina to the world! I'am Matias Semelman, self-taught
           minimalist developer, with passion for giving life to new projects.
@@ -20,7 +20,6 @@ export const Main = () => {
           found anything so fascinating like coding. You love it or you don't
           understand it.
         </p>
-        <p>Know more about me.</p>
       </section>
     </main>
   );

@@ -2,7 +2,7 @@ export const Footer = () => {
   return (
     <footer>
       <div>
-        <ul className="flex justify-between mx-2">
+        <ul className="flex justify-between mx-4 py-2">
           <li>
             <a href="#"></a>Github
           </li>
@@ -17,7 +17,9 @@ export const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="text-center">Copyright 2022© - Matias Semelman</div>
+      <div className="text-center pb-2 text-red-600">
+        Copyright 2022© - Matias Semelman
+      </div>
     </footer>
   );
 };
