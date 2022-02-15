@@ -4,8 +4,8 @@ export const Navbar = () => {
       <div>
         <img
           src="https://imgur.com/KJLghxT"
-          alt="MyLogo"
-          className="flex-none w-8 h-8"
+          alt="My Logo"
+          className="flex-none w-10 h-10"
         />
       </div>
 
