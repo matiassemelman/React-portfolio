@@ -5,7 +5,7 @@ export const Navbar = () => {
         <img
           src="https://imgur.com/KJLghxT"
           alt="My Logo"
-          className="flex-none"
+          className="flex-none h-8 w-8"
         />
       </div>
 
@@ -16,12 +16,9 @@ export const Navbar = () => {
         <li className="pr-2 ">
           <a href="#">Roadmap</a>
         </li>
-
         <li className="pr-2 ">
           <a href="#">Blog</a>
         </li>
-
-        {/* Menu Icon from https://heroicons.com/*/}
       </ul>
     </header>
   );
