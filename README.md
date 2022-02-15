@@ -4,7 +4,10 @@ Long time passed until I decided to move my Portfolio from plain HTML/CSS to Rea
 
 Maybe my code it's too compressed (in reality, is more cleaner) for some, so I will link below the guides I used to build it.
 
-## What guides I'll use to build the components
+### Deploy on [Netlify](https://matiassemelman-portfolio.netlify.app/)
+
+
+# What guides I'll use to build the components
 
 ### Clean React Components
 
