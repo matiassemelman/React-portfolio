@@ -5,7 +5,7 @@ import { Navbar } from "./Components/Navbar";
 function App() {
   return (
     <div className="h-max-screen w-screen text-white ">
-      {/* <Navbar /> */}
+      <Navbar />
       <Home />
       <Footer />
     </div>
