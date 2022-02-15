@@ -1,19 +1,23 @@
 export const Navbar = () => {
   return (
-    <header className="flex w-screen justify-between p-4 sm:p-24 sm:pb-10">
+    <header className="flex bg-zinc-800 w-screen justify-between px-4 py-4 fixed">
       <div>
-        <h1 className="flex-none">Logo</h1>
+        <img
+          src="https://imgur.com/KJLghxT"
+          alt="MyLogo"
+          className="flex-none w-8 h-8"
+        />
       </div>
 
-      <ul className="flex sm:text-2xl">
-        <li className="pr-2 sm:pr-10">
-          <a href="/">Home</a>
+      <ul className="flex text-lg">
+        <li className="pr-2 ">
+          <a href="#me">About</a>
         </li>
-        <li className="pr-2 sm:pr-10">
+        <li className="pr-2 ">
           <a href="#">Roadmap</a>
         </li>
 
-        <li className="pr-2 sm:pr-10">
+        <li className="pr-2 ">
           <a href="#">Blog</a>
         </li>
 
